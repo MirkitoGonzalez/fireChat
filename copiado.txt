@@ -1,0 +1,20 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCfDqMHIzhfmuaEqwB6ECYv5RI0eldbkNw",
+    authDomain: "firechat-mirko.firebaseapp.com",
+    databaseURL: "https://firechat-mirko.firebaseio.com",
+    projectId: "firechat-mirko",
+    storageBucket: "firechat-mirko.appspot.com",
+    messagingSenderId: "357080089196",
+    appId: "1:357080089196:web:ce9f5f089f452282d74e49"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
